@@ -1,0 +1,222 @@
+.container{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar begining */
+#navbar {
+    display: flex;
+    background-color:#00000098;
+    height: 90px ;
+    width: auto;
+    
+}
+#name {
+    position: relative;
+    display: flex;
+    margin-left: 40px;
+    background-color: aqua;
+    height: 30px;
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+    align-content: center;
+
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+    list-style: none;
+}
+
+li {
+list-style:none;
+font-size: 30px;
+text-transform: capitalize;
+
+
+}
+ 
+.links li a {
+    margin-left: 20px ;
+    text-decoration: none;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: aquamarine;
+}
+/* cool image styles */
+.cool {
+    display: flex;
+    float: right;
+    min-height: 200px;
+    width: 100%;
+    color: #fff;
+    background-image: url('/assets/images/img1.png');
+    z-index: 1;
+    
+}
+.cool h1 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 50px;
+  
+    
+
+}
+/* about me section */
+main{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 20%;
+    padding: 0px;
+    z-index: 2;
+    overflow: hidden;
+
+    
+}
+
+.main1 {
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 100px;
+}
+.main1 h2{
+ float: left;
+ font-size: 35px; 
+ border-right: solid  5px darkolivegreen;
+ margin-left: 0px;
+}
+.main1 P {
+    margin-left:40px;
+    padding: 0 px;
+    line-height: 40px;
+    font-size: 20px;
+
+    
+}
+/* work section  */
+.main2 {
+    display: flex;
+    min-height: 500px;
+}
+.main2 h2 {
+    font-size: 40px;
+    float: left; 
+    border-right: solid 5px darkolivegreen;
+    margin-left: 100px;
+    margin-right: 20px;
+
+}
+.listwork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2em;
+    margin: 40px;
+   
+    
+}
+
+#web {
+    color:white;
+    font-size: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    flex-grow: 1;
+    background-image: url(/assets/images/img8.jpg);
+    height: 490px;
+    width: auto;
+}
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+    gap: 2em;  
+}
+
+#list1{ 
+    color:white;
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(/assets/images/img5.png);
+    height: 100px;
+    width: 550px;
+    
+}
+#list2{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(/assets/images/img6.png);
+    height: 100px;
+    width: 550px;
+}
+#list3{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(/assets/images/img7.jpg );
+    height: 100px;
+    width: 550px;
+}
+
+#list4{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(/assets/images/img8.jpg);
+    height: 100px;
+    width: 550px;
+}
+/* footer  */
+.foot{
+    display: flex;
+    height: 90px ;
+    width: auto;
+    
+}
+.foot h2 { 
+    display:flex ;
+    flex-wrap: wrap;
+    font-size: 35px;
+    border-right: solid 5px darkolivegreen ;
+    margin-left: 0px;
+}
+.foot ul li {
+    display: flex;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 60px;
+    list-style: none;
+    gap: 15em;
+    text-decoration: underline 3px darkolivegreen;
+}
