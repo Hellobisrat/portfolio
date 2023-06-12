@@ -16,5 +16,5 @@ its responsive web page
 its cloned with the link (git@github.com:Hellobisrat/portfolio.git)
 
 it has scrren shot top <img src='/assets/images/scr1.jpg' alt='top scrren shot'>
-work screen shot <img scr="/assets/images/Scn-2.jpg" alt='work screen shot'>
-foot scetion <img scr='/assets/images/scr3.jpg' alt='contact me section'>
+work screen shot <img src="/assets/images/Scn-2.jpg" alt='work screen shot'>
+foot scetion <img src='/assets/images/scr3.jpg' alt='contact me section'>
