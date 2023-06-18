@@ -6,6 +6,7 @@
 page is begin by coding from HTml
 
 each html is symatic
+profile picture is added 
 
 it has header , body ,sections
 
