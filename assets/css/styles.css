@@ -138,10 +138,13 @@ main{
     align-items:center;
     justify-content:center;
     display: flex;
-    flex-grow: 1;
+    flex-grow: 2;
     background-image: url('../images/img8.jpg');
     height: 490px;
     width: auto;
+}
+#web a {
+  text-decoration: none;  
 }
 .lists {
     display: flex;
@@ -149,6 +152,9 @@ main{
     justify-content:space-around;
     align-content: center;
     gap: 2em;  
+}
+.lists a {
+    text-decoration:none;
 }
 
 #list1{ 
